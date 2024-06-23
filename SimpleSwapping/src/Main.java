@@ -6,7 +6,6 @@ public class Main {
         arr[b] = temp;
     }
 
-
     public static void main(String[] args) {
 
         int[] arr = {1,2,3,4,5,6,7,8,9};
@@ -14,8 +13,7 @@ public class Main {
 
         swap(arr,a,b);
 
-        System.out.println("The value at index 0 is: " + arr[0]);
+        System.out.println("The value at index 0 is: " + arr[a]);
         System.out.println("The value at index 1 is: " + arr[b]);
-
     }
 }
